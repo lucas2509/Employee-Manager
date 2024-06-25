@@ -20,7 +20,7 @@ Instalações necessárias :
 **Local** : Para iniciar a aplicação localmente deve-se adicionar um banco de dados MySQL com os parametros definidos em src\main\resources\database.properties e executar os seguintes comandos para buildar a aplicação e executa-la:
 
     $ mvn package
-    $ java -jar target/Covid19.jar
+    $ java -jar target/EmployeeManager-1.0-SNAPSHOT.jar
 
 ## 📖 Interface gráfica
 
