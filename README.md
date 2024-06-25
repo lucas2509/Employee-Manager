@@ -9,7 +9,7 @@ Este projeto visa disponibilizar uma aplicação Desktop para realizar consultas
 - #### Linguagem: Java
 
 - Swing (Biblioteca gráfica)
-- PostgreeSQL (Banco de dados relacional)
+- PostgreSQL (Banco de dados relacional)
 - Flyway (Migração de Banco de dados)
 
 ## 💾 Instalações
@@ -17,7 +17,7 @@ Instalações necessárias :
  - **Localmente** : Para execução local da aplicação é necessário ter instalado [PostgreeSQL]((https://www.postgresql.org/download/)), [Java](https://www.java.com/pt-BR/download/) (recomendável 17) e [Maven](https://maven.apache.org/download.cgi).
 
 ## 💿 Rodando a aplicação
-**Local** : Para iniciar a aplicação localmente deve-se adicionar um banco de dados MySQL com os parametros definidos em src\main\resources\database.properties e executar os seguintes comandos para buildar a aplicação e executa-la:
+**Local** : Para iniciar a aplicação localmente deve-se adicionar um banco de dados PostgreSQL com os parametros definidos em src\main\resources\database.properties e executar os seguintes comandos para buildar a aplicação e executa-la:
 
     $ mvn package
     $ java -jar target/EmployeeManager-1.0-SNAPSHOT.jar
